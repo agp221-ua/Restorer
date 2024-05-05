@@ -44,6 +44,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(kotlin("reflect"))
+    androidTestImplementation(project(":TestApp"))
 }
 
 afterEvaluate {
