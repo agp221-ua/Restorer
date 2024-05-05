@@ -43,7 +43,7 @@ dependencies {
     implementation(libs.androidx.activity)
 //    implementation(libs.moduledroid)
     implementation(libs.moduledroidLocal)
-//    implementation("com.github.agp221-ua:Navigator:0.1.1")
+//    implementation("com.github.agp221-ua:Restorer:0.1.1")
     implementation(project(":Restorer"))
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
